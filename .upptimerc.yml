@@ -4,24 +4,32 @@ repo: springs-status
 sites:
   - name: Springs Solutions (Hub)
     url: https://springs.solutions
+    icon: https://springs.solutions/assets/springs-s-mark-64.png
   - name: Chore Pets
     url: https://chorepets.springs.solutions
+    icon: https://chorepets.springs.solutions/landing-assets/favicon.png
   - name: Unfold
     url: https://unfold.springs.solutions/app/
+    icon: https://unfold.springs.solutions/landing-assets/favicon.svg
   - name: Footage
     url: https://footage.springs.solutions
+    icon: https://footage.springs.solutions/assets/favicon.svg
   - name: Reel Coach
     url: https://reelcoach.springs.solutions
+    icon: https://reelcoach.springs.solutions/landing-assets/favicon.svg
   - name: Video Platform
     url: https://vp.springs.solutions
+    icon: https://vp.springs.solutions/landing-assets/favicon.svg
   - name: LotGD
     url: https://lotgd.springs.solutions
+    icon: https://lotgd.money/favicon.ico
 
 status-website:
   cname: status.springs.solutions
+  logoUrl: https://springs.solutions/assets/springs-s-mark-192.png
   name: Springs Solutions
   introTitle: "Springs Solutions — Service Status"
-  introMessage: "Live status and response times for the apps in the Springs Solutions suite. Powered by Upptime — checks run from GitHub Actions, history is stored in this repository."
+  introMessage: "Live status and response times for the Springs Solutions app suite — *software for the life you actually live.* Checks run from GitHub Actions; history lives in [this repository](https://github.com/JeremyYowell/springs-status)."
   navbar:
     - title: Status
       href: /
