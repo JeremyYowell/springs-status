@@ -1,16 +1,34 @@
 owner: JeremyYowell
 repo: springs-status
 
+# NOTE (2026-06-15): expectedStatusCodes including 429 added to the four
+# DreamHost-proxied sites as a *temporary* tolerance measure. The GitHub
+# Actions runner's burst trips DreamHost per-IP throttling (Procwatch),
+# producing false-positive 429 "down" incidents. Revert to strict
+# monitoring ~2026-07-15 — see the tracking issue. `git revert` this commit.
+
 sites:
   - name: Springs Solutions (Hub)
     url: https://springs.solutions
     icon: https://springs.solutions/assets/springs-s-mark-64.png
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 429
   - name: Chore Pets
     url: https://chorepets.springs.solutions
     icon: https://chorepets.springs.solutions/landing-assets/favicon.png
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 429
   - name: Unfold
     url: https://unfold.springs.solutions/app/
     icon: https://unfold.springs.solutions/landing-assets/favicon.svg
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 429
   - name: Footage
     url: https://footage.springs.solutions
     icon: https://footage.springs.solutions/assets/favicon.svg
@@ -23,6 +41,10 @@ sites:
   - name: LotGD
     url: https://lotgd.springs.solutions
     icon: https://lotgd.money/favicon.ico
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 429
 
 status-website:
   cname: status.springs.solutions
