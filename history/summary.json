@@ -5,11 +5,11 @@
     "icon": "https://springs.solutions/assets/springs-s-mark-64.png",
     "slug": "springs-solutions-hub",
     "status": "down",
-    "uptime": "95.72%",
-    "uptimeDay": "99.62%",
-    "uptimeWeek": "95.72%",
-    "uptimeMonth": "95.72%",
-    "uptimeYear": "95.72%",
+    "uptime": "94.18%",
+    "uptimeDay": "97.29%",
+    "uptimeWeek": "94.18%",
+    "uptimeMonth": "94.18%",
+    "uptimeYear": "94.18%",
     "time": 365,
     "timeDay": 351,
     "timeWeek": 365,
@@ -17,7 +17,7 @@
     "timeYear": 365,
     "dailyMinutesDown": {
       "2026-06-13": 83,
-      "2026-06-15": 5
+      "2026-06-15": 39
     }
   },
   {
@@ -26,11 +26,11 @@
     "icon": "https://chorepets.springs.solutions/landing-assets/favicon.png",
     "slug": "chore-pets",
     "status": "down",
-    "uptime": "95.74%",
-    "uptimeDay": "99.64%",
-    "uptimeWeek": "95.74%",
-    "uptimeMonth": "95.74%",
-    "uptimeYear": "95.74%",
+    "uptime": "94.20%",
+    "uptimeDay": "97.30%",
+    "uptimeWeek": "94.20%",
+    "uptimeMonth": "94.20%",
+    "uptimeYear": "94.20%",
     "time": 2602,
     "timeDay": 439,
     "timeWeek": 2602,
@@ -38,7 +38,7 @@
     "timeYear": 2602,
     "dailyMinutesDown": {
       "2026-06-13": 82,
-      "2026-06-15": 5
+      "2026-06-15": 39
     }
   },
   {
@@ -47,11 +47,11 @@
     "icon": "https://unfold.springs.solutions/landing-assets/favicon.svg",
     "slug": "unfold",
     "status": "down",
-    "uptime": "95.76%",
-    "uptimeDay": "99.66%",
-    "uptimeWeek": "95.76%",
-    "uptimeMonth": "95.76%",
-    "uptimeYear": "95.76%",
+    "uptime": "94.22%",
+    "uptimeDay": "97.32%",
+    "uptimeWeek": "94.22%",
+    "uptimeMonth": "94.22%",
+    "uptimeYear": "94.22%",
     "time": 311,
     "timeDay": 438,
     "timeWeek": 311,
@@ -59,7 +59,7 @@
     "timeYear": 311,
     "dailyMinutesDown": {
       "2026-06-13": 82,
-      "2026-06-15": 5
+      "2026-06-15": 39
     }
   },
   {
@@ -122,11 +122,11 @@
     "icon": "https://lotgd.money/favicon.ico",
     "slug": "lot-gd",
     "status": "down",
-    "uptime": "96.23%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "96.23%",
-    "uptimeMonth": "96.23%",
-    "uptimeYear": "96.23%",
+    "uptime": "94.68%",
+    "uptimeDay": "97.66%",
+    "uptimeWeek": "94.68%",
+    "uptimeMonth": "94.68%",
+    "uptimeYear": "94.68%",
     "time": 473,
     "timeDay": 290,
     "timeWeek": 473,
@@ -134,7 +134,7 @@
     "timeYear": 473,
     "dailyMinutesDown": {
       "2026-06-13": 77,
-      "2026-06-15": 0
+      "2026-06-15": 34
     }
   }
 ]
