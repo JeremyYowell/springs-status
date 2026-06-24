@@ -47,11 +47,11 @@
     "icon": "https://unfold.springs.solutions/landing-assets/favicon.svg",
     "slug": "unfold",
     "status": "down",
-    "uptime": "71.73%",
+    "uptime": "71.43%",
     "uptimeDay": "0.00%",
-    "uptimeWeek": "57.02%",
-    "uptimeMonth": "71.73%",
-    "uptimeYear": "71.73%",
+    "uptimeWeek": "56.34%",
+    "uptimeMonth": "71.43%",
+    "uptimeYear": "71.43%",
     "time": 315,
     "timeDay": 0,
     "timeWeek": 302,
@@ -60,7 +60,7 @@
     "dailyMinutesDown": {
       "2026-06-13": 82,
       "2026-06-15": 135,
-      "2026-06-24": 1261,
+      "2026-06-24": 1329,
       "2026-06-23": 1440,
       "2026-06-22": 1440,
       "2026-06-21": 192
@@ -125,21 +125,21 @@
     "url": "https://lotgd.springs.solutions",
     "icon": "https://lotgd.money/favicon.ico",
     "slug": "lot-gd",
-    "status": "down",
-    "uptime": "97.80%",
-    "uptimeDay": "89.83%",
-    "uptimeWeek": "98.55%",
-    "uptimeMonth": "97.80%",
-    "uptimeYear": "97.80%",
-    "time": 475,
-    "timeDay": 592,
-    "timeWeek": 542,
-    "timeMonth": 475,
-    "timeYear": 475,
+    "status": "up",
+    "uptime": "97.39%",
+    "uptimeDay": "85.10%",
+    "uptimeWeek": "97.87%",
+    "uptimeMonth": "97.39%",
+    "uptimeYear": "97.39%",
+    "time": 597,
+    "timeDay": 1248,
+    "timeWeek": 766,
+    "timeMonth": 597,
+    "timeYear": 597,
     "dailyMinutesDown": {
       "2026-06-13": 77,
       "2026-06-15": 130,
-      "2026-06-24": 146
+      "2026-06-24": 214
     }
   }
 ]
