@@ -1,0 +1,31 @@
+name: ntfy incident alert
+
+# Pushes a phone notification (ntfy.sh) when Upptime opens or closes an
+# incident issue. Upptime labels incident issues with "status"; that label
+# can only be applied by users with write/triage access, which gates the job.
+on:
+  issues:
+    types: [opened, closed, reopened]
+
+permissions: {}
+
+jobs:
+  notify:
+    if: contains(join(github.event.issue.labels.*.name, ','), 'status')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Push to ntfy
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          ACTION: ${{ github.event.action }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+        run: |
+          set -eu
+          if [ -z "${NTFY_TOPIC:-}" ]; then echo "NTFY_TOPIC secret not set"; exit 1; fi
+          case "$ACTION" in
+            opened|reopened) PRIORITY=urgent;  TAGS=rotating_light;  HEAD="DOWN: $ISSUE_TITLE" ;;
+            closed)          PRIORITY=high;    TAGS=white_check_mark; HEAD="Recovered: $ISSUE_TITLE" ;;
+            *)               PRIORITY=default; TAGS=bell;             HEAD="$ISSUE_TITLE" ;;
+          esac
+          curl -fsS             -H "Title: $HEAD"             -H "Priority: $PRIORITY"             -H "Tags: $TAGS"             -H "Click: $ISSUE_URL"             -d "$ISSUE_URL"             "https://ntfy.sh/$NTFY_TOPIC"
