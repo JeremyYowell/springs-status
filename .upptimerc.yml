@@ -23,6 +23,12 @@ sites:
   - name: LotGD
     url: https://lotgd.springs.solutions
     icon: https://lotgd.money/favicon.ico
+  - name: Video Platform API
+    url: https://api.springs.solutions/api/health
+    icon: https://vp.springs.solutions/landing-assets/favicon.svg
+  - name: Billing API
+    url: https://springs-billing-api.azurewebsites.net/api/health
+    icon: https://springs.solutions/assets/springs-s-mark-64.png
 
 status-website:
   cname: status.springs.solutions
