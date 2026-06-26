@@ -45,6 +45,24 @@ sites:
       - 200
       - 301
       - 429
+  - name: Video Platform API
+    url: https://api.springs.solutions/api/health
+    icon: https://vp.springs.solutions/landing-assets/favicon.svg
+  - name: Billing API
+    url: https://springs-billing-api.azurewebsites.net/api/health
+    icon: https://springs.solutions/assets/springs-s-mark-64.png
+  - name: Automation (n8n)
+    url: https://flow.springs.solutions/webhook/obs/ping
+    icon: https://springs.solutions/assets/springs-s-mark-64.png
+  - name: Springs Events
+    url: https://events.springs.solutions
+    icon: https://springs.solutions/assets/springs-s-mark-64.png
+  - name: LotGD (lotgd.money)
+    url: https://lotgd.money
+    icon: https://lotgd.money/favicon.ico
+  - name: Forest Flashes (newsletter + games)
+    url: https://forestflashes.springs.solutions/puzzle/
+    icon: https://springs.solutions/assets/springs-s-mark-64.png
 
 status-website:
   cname: status.springs.solutions
