@@ -1,0 +1,11 @@
+version: 2
+updates:
+  # Upptime repo — no package manifests; everything runs through Actions.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    target-branch: "master"
+    groups:
+      monthly-batch:
+        patterns: ["*"]
